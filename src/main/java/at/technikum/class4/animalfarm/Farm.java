@@ -19,6 +19,11 @@ public class Farm {
         animals.add(e);
         animals.add(e);
 
+        Dog d = new Dog();
+        d.getTreats().add("Stangerl");
+
+        d.printTreats();
+
         for (SpeakingAnimal animal : animals) {
             animal.speak();
         }
