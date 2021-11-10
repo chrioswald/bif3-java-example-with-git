@@ -11,6 +11,7 @@ public class Farm {
 
         cat.addTreat("Fish cake");
         cat.addTreat("Fish stick");
+        cat.addTreat("Fish stick6");
         cat.addTreat("Fish stick2");
 
         cat.printTreats();
